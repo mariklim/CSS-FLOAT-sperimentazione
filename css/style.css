@@ -24,12 +24,12 @@ img{
     border: 1px solid black;
 }
 
-.block-pink {
+.block-pink, .colonna-left-pink {
     background-color: pink;
     float: left;
     
 }
-.block-blue {
+.block-blue, .colonna-right-blue {
     background-color: aqua;
     float: right;
 }
@@ -38,4 +38,17 @@ img{
     content:"";
     display: table;
     clear: both;
+}
+
+.layout{
+    width: 1000px;
+    margin: auto;
+    background-color: coral;
+}
+.colonna-left-pink{
+    width: 30%;
+}
+
+.colonna-right-blue{
+    width: 70%;
 }
