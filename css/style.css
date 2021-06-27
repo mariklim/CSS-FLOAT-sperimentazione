@@ -1,0 +1,41 @@
+
+
+h2{
+    color: mediumvioletred;
+}
+
+img{
+ width: 200px;
+}
+
+.float-left{
+    float: left;
+}
+
+.box{
+    width: 600px;
+    margin: auto;
+    background-color: blanchedalmond;
+}
+
+.block-pink, .block-blue{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+}
+
+.block-pink {
+    background-color: pink;
+    float: left;
+    
+}
+.block-blue {
+    background-color: aqua;
+    float: right;
+}
+
+.clearfix::after{
+    content:"";
+    display: table;
+    clear: both;
+}
